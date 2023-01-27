@@ -26,8 +26,7 @@ nav{
 
 }
 .nav-right img{
-     width: 25px;
-      margin-right: 25px;
+    margin-right: 25px;
 }
 .nav-right .user-icon{
     width: 35px;
@@ -86,7 +85,7 @@ nav{
     border: 0;
     height: 1px;
     background: #ccc;
-    width: 85%;
+    width: 80%;
 }
 .subscribed-list h3{
     font-size: 13px;
@@ -118,6 +117,86 @@ nav{
     width: 50%;
     margin-bottom: 25px;
 }
+
+
+/* ...................................container..................... */
+
+.container{
+    background: #f9f9f9;
+    padding-left:  22%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ............play video page........................ */
+.play-container{
+   padding-left: 2%; 
+}
+.row{
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+}
+.play-video{
+     flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+}
+.play-video video{
+    width: 100%;
+}
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.side-video-list img{
+    width: 100%;
+}
+.side-video-list .small-thumbnail{
+    flex-basis: 49%;
+}
+.side-video-list .vid-info{
+    flex-basis: 49%;
+}
+.play-video .tags a{ 
+    color: #0000ff;
+    font-size: 12px;
+}
+.play-video h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.play-video .play-video-info p{
+    
+}
+
+
+
+
+
 
 
  
